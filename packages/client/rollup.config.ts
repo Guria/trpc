@@ -7,6 +7,7 @@ export const input = [
   'src/links/httpBatchLink.ts',
   'src/links/splitLink.ts',
   'src/links/loggerLink.ts',
+  'src/links/webworkerLink.ts',
   'src/links/wsLink.ts',
   'src/shared/index.ts',
 ];

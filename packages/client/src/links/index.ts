@@ -6,6 +6,7 @@ export * from './httpBatchStreamLink';
 export * from './httpLink';
 export * from './loggerLink';
 export * from './splitLink';
+export * from './webworkerLink';
 export * from './wsLink';
 export * from './httpFormDataLink';
 

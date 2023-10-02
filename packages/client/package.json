@@ -55,6 +55,11 @@
       "require": "./dist/links/loggerLink.js",
       "default": "./dist/links/loggerLink.js"
     },
+    "./links/webworkerLink": {
+      "import": "./dist/links/webworkerLink.mjs",
+      "require": "./dist/links/webworkerLink.js",
+      "default": "./dist/links/webworkerLink.js"
+    },
     "./links/wsLink": {
       "import": "./dist/links/wsLink.mjs",
       "require": "./dist/links/wsLink.js",

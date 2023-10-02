@@ -907,6 +907,52 @@ importers:
         specifier: ^5.1.3
         version: 5.1.3
 
+  examples/minimal-webworker:
+    dependencies:
+      '@tanstack/react-query':
+        specifier: 4.18.0
+        version: 4.18.0(react-dom@18.2.0)(react@18.2.0)
+      '@trpc/client':
+        specifier: link:../../packages/client
+        version: link:../../packages/client
+      '@trpc/react-query':
+        specifier: link:../../packages/react-query
+        version: link:../../packages/react-query
+      '@trpc/server':
+        specifier: link:../../packages/server
+        version: link:../../packages/server
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+      zod:
+        specifier: ^3.0.0
+        version: 3.20.2
+    devDependencies:
+      '@playwright/test':
+        specifier: ^1.26.1
+        version: 1.28.1
+      '@vitejs/plugin-react':
+        specifier: ^3.1.0
+        version: 3.1.0(vite@4.1.2)
+      npm-run-all:
+        specifier: ^4.1.5
+        version: 4.1.5
+      start-server-and-test:
+        specifier: ^1.12.0
+        version: 1.14.0
+      typescript:
+        specifier: ^5.1.3
+        version: 5.1.3
+      vite:
+        specifier: ^4.1.2
+        version: 4.1.2(@types/node@18.16.16)
+      wait-port:
+        specifier: ^1.0.1
+        version: 1.0.4
+
   examples/minimal/client:
     dependencies:
       '@trpc/client':

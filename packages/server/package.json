@@ -84,6 +84,11 @@
       "require": "./dist/adapters/standalone.js",
       "default": "./dist/adapters/standalone.js"
     },
+    "./adapters/webworker": {
+      "import": "./dist/adapters/webworker.mjs",
+      "require": "./dist/adapters/webworker.js",
+      "default": "./dist/adapters/webworker.js"
+    },
     "./adapters/ws": {
       "import": "./dist/adapters/ws.mjs",
       "require": "./dist/adapters/ws.js",
